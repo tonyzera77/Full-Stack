@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Adivinhação</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        #resultado {
+            padding: 15px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Jogo de Adivinhação</h1>
+
+    <p>Tente adivinhar um número de 0 a 99.</p>
+
+    <input type="number" id="numero" min="0" max="99">
+
+    <button onclick="verificar()">Tentar</button>
+
+    <p id="resultado">Boa sorte!</p>
+
+    <script src="guess.js"></script>
+
+</body>
+</html>
